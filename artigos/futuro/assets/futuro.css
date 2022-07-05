@@ -79,3 +79,27 @@ h2 {
     margin: 40px 0 25px 0;
     font-size: 30px;
 }
+
+.content-video {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    section {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        min-height: 300px;
+        object-fit: cover;
+    }
+}
